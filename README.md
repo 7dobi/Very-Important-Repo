@@ -18,14 +18,45 @@ function VeryImportantFunction(veryImpArg) {
 
 
 
-Sorry But need to post this joke.
+
 
 ```javascript
-
-//How impress girls by coding...? Tell me guys..
-
-//If you send a girl a div with a pink box-shadow and just a paragraph in it and say it was for her, she wouldn't be that amazed. 
-//Try making something that not only would amaze her, but anyone who would be looking at it. Make it as unique as you usually would, there's no need that you need to //simplify it or change it because she's a girl. 🐏
+function bubbleSort(arr){
+   
+  var i, j;
+  var len = arr.length;
+   
+  var isSwapped = false;
+   
+  for(i =0; i < len; i++){
+     
+    isSwapped = false;
+     
+    for(j = 0; j < len; j++){
+        if(arr[j] > arr[j + 1]){
+          var temp = arr[j]
+          arr[j] = arr[j+1];
+          arr[j+1] = temp;
+          isSwapped = true;
+        }
+    }
+     
+    // IF no two elements were swapped by inner loop, then break
+     
+    if(!isSwapped){
+      break;
+    }
+  }
+   
+  // Print the array
+  console.log(arr)
+}
+ 
+ 
+var arr = [243, 45, 23, 356, 3, 5346, 35, 5];
+ 
+// calling the bubbleSort Function
+bubbleSort(arr)
 
 
 ```
