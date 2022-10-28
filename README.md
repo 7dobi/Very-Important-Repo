@@ -1,25 +1,8 @@
 
 Well Well Well how the turntables.
 =======
-Hacktober Fest is Very important for development of our society.
 
-```javascript
-function VeryImportantFunction(veryImpArg) {
-  if(veryImpArg) {
-    return "Very Important Message"
-  }
-}
-```
-
-- [x] Very Important Task
-- [x] Super secret Task
-- [x] Major Task
-- [ ] Crucial Task
-
-
-
-
-
+## Bubble Sort in Javascript
 ```javascript
 function bubbleSort(arr){
    
@@ -100,4 +83,16 @@ func main() {
     fmt.Println("Square root of 9 is :", result)
 }
 
+```
+
+## Merge two dictionary in python
+
+``` python
+dict_1 = {1: 'a', 2: 'b'}
+dict_2 = {2: 'c', 4: 'd'}
+
+dict_3 = dict_2.copy()
+dict_3.update(dict_1)
+
+print(dict_3)
 ```
